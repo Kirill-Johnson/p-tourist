@@ -1,0 +1,19 @@
+{:uriI"file://app/assets/javascripts/spa-demo/subjects/images/image_selector.html?type=text/html&id=a18c5464c66b69da2cb6f3cc45777083743e74dfc541750a44c9a739e8d2492a:ET:load_pathI"app/assets/javascripts;T:filenameI"Happ/assets/javascripts/spa-demo/subjects/images/image_selector.html;T:	nameI",spa-demo/subjects/images/image_selector;T:logical_pathI"1spa-demo/subjects/images/image_selector.html;T:content_typeI"text/html;T:sourceI"ø<div class="image-list" ng-show="$ctrl.authz.canQuery" style="margin-bottom: 20px;">
+  <ul>
+    <li ng-repeat="item in $ctrl.items | orderBy:'caption'">
+      <a ui-sref="images({id:item.id})">
+          <span class="image_id id">{{item.id}}</span>                    
+          <img style="width: 50px; height: 33px" 
+                 ng-src="{{item.content_url}}?width=50"/>
+          {{item.caption}}
+      <span ng-show="$ctrl.authz.canUpdateItem(item)"> *</span>
+      </a>
+    </li>
+  </ul>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Vfile-digest://app/assets/javascripts/spa-demo/subjects/images/image_selector.html;TT:charsetI"
+utf-8;F:digest"%3éĞÒØˆ{A²Æ[uFK{«,-‹ûc!ğ@ZÁ”È:lengthiø:dependencies_digest"%ÔÉ¦ƒ–ş9°q5¨OGîIN8û5{2C*¯¶:idI"Ea18c5464c66b69da2cb6f3cc45777083743e74dfc541750a44c9a739e8d2492a;F:
+mtimel+
+õôX

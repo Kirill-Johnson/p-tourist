@@ -1,0 +1,24 @@
+{:uriI"Šfile://app/assets/javascripts/spa-demo/pages/about.html?type=text/html&id=1640ef9a726eff0ac1fe7c3a299d5b679af6de8869c4e42c683234b92f269393:ET:load_pathI"app/assets/javascripts;T:filenameI"5app/assets/javascripts/spa-demo/pages/about.html;T:	nameI"spa-demo/pages/about;T:logical_pathI"spa-demo/pages/about.html;T:content_typeI"text/html;T:sourceI"·<div class="page">
+  <h1>About</h1>
+
+<h2>P-Tourist</h2>
+P-Tourist is an application with images, maps, information, and user authorization.
+
+<h2>Technical stuff</h2>
+First of all, this application is built on <i>Ruby on Rails</i> and <i>AngularJS</i>. It also uses AngularJS libraries and Bootstrap on the frontend. On the backend it uses both PostgreSQL and MongoDB databases.
+
+See a visual architecture in the picture below: <br>
+<img src="/images/architecture.png" width="65%" style="max-width: 1070px; margin-top: 10px; margin-bottom: 10px;"><br>
+
+Currently it is deployed on Heroku. As at the moment it's demonstration and not commercial app (you don't see any ads, isn't it?), here is used free account.
+
+<h3>Author</h3>
+Made by <a href="http://topolyan.com/" target="_blank">Kirill Topolyan</a>. Source code is avalible on <a href="">Github</a>. Thanks a lot for the inspiration to Johns Hopkins University and Professor Jim Stafford.
+ 
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Cfile-digest://app/assets/javascripts/spa-demo/pages/about.html;TT:charsetI"
+utf-8;F:digest"%æ1/±Îa¡|ÒÑ;C{âá®Ý)üGJHöµ‰.:lengthi·:dependencies_digest"%3ÉÕ“êÌè¡÷—¹{t÷xò†HætÓ'>^¨
+,ú£ÿ:idI"E1640ef9a726eff0ac1fe7c3a299d5b679af6de8869c4e42c683234b92f269393;F:
+mtimel+º(õX

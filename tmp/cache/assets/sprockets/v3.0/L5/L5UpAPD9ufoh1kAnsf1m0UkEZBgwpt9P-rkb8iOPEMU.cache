@@ -1,0 +1,11 @@
+{:uriI"‰file://app/assets/javascripts/spa-demo/pages/main.html?type=text/html&id=89bcc7c7be86cfdcf9966b404b0e78bbf78d910001c22f0c74fc98382a931687:ET:load_pathI"app/assets/javascripts;T:filenameI"4app/assets/javascripts/spa-demo/pages/main.html;T:	nameI"spa-demo/pages/main;T:logical_pathI"spa-demo/pages/main.html;T:content_typeI"text/html;T:sourceI"˜<!-- Old main page in demopapp -->
+<div class="page">
+  <h1>Sample App</h1>
+  <span>(from spa-demo/pages/main.html)</span>
+  <sd-foos></sd-foos>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Bfile-digest://app/assets/javascripts/spa-demo/pages/main.html;TT:charsetI"
+utf-8;F:digest"%q2ÀTçš´9ãŠJŒBÌ†¢¶Õ]œñ®>kòù¢E:lengthi˜:dependencies_digest"%†ò¬@~ÑH‘ögTÍÖ0šwÍ¨¸Ñ¼MÎÀ.j¥:idI"E89bcc7c7be86cfdcf9966b404b0e78bbf78d910001c22f0c74fc98382a931687;F:
+mtimel+eÌóX
