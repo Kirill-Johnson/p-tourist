@@ -1,8 +1,0 @@
-{:uriI"file://app/assets/javascripts/spa-demo/layout/tabs/tab.html?type=text/html&id=4c8f1d67ac5168e92c4959a531dd9ee442922522f222b9a91b3108236756af69:ET:load_pathI"app/assets/javascripts;T:filenameI"9app/assets/javascripts/spa-demo/layout/tabs/tab.html;T:	nameI"spa-demo/layout/tabs/tab;T:logical_pathI""spa-demo/layout/tabs/tab.html;T:content_typeI"text/html;T:sourceI"S<div class="tab-pane"
-     ng-show="$ctrl.selected"
-     ng-transclude>
-</div>;T:metadata{	:dependencieso:Set:
-@hash{
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Gfile-digest://app/assets/javascripts/spa-demo/layout/tabs/tab.html;TT:charsetI"
-utf-8;F:digest"%Êd¬e_“¾¤7pŞa3Ö7?X]€»–dz¦•Å>c3â™:lengthiS:dependencies_digest"%¹Í$’!vMüíÌÿ€S,‘•Òe‰±9ûÓÜG:idI"E4c8f1d67ac5168e92c4959a531dd9ee442922522f222b9a91b3108236756af69;F:
-mtimel+ËğX

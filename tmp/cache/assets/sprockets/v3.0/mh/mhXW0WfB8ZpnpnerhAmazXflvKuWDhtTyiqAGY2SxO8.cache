@@ -1,13 +1,0 @@
-{:uriI"file://app/assets/javascripts/spa-demo/layout/areas/area.html?type=text/html&id=8aa2e8a3205ba3f35f4f6f39f7058038f07e8c801d1979917d7c5b3c3a321b4d:ET:load_pathI"app/assets/javascripts;T:filenameI";app/assets/javascripts/spa-demo/layout/areas/area.html;T:	nameI"spa-demo/layout/areas/area;T:logical_pathI"$spa-demo/layout/areas/area.html;T:content_typeI"text/html;T:sourceI"õ<div class="area-pane"
-     ng-if="$ctrl.show"
-     ng-class="{expanded: $ctrl.isExpanded()}">
-  <div class="area-transclude" ng-transclude></div>    
-
-  <input name="collapse-area"
-         type="checkbox"
-         ng-model="$ctrl.show">
-</div>;T:metadata{	:dependencieso:Set:
-@hash{
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Ifile-digest://app/assets/javascripts/spa-demo/layout/areas/area.html;TT:charsetI"
-utf-8;F:digest"%İË¥¹î}ÍÓÖú§¨V‘‚º38x¼o(ã×çıÈíù”:lengthiõ:dependencies_digest"%4ï;Õ¶H1ÕÀ¹n€œJ°¯U4¦˜÷G×Ò“'²!Ë:idI"E8aa2e8a3205ba3f35f4f6f39f7058038f07e8c801d1979917d7c5b3c3a321b4d;F:
-mtimel+ËğX
