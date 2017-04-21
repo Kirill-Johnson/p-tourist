@@ -37,7 +37,12 @@
 
     .state("foos",{
       url: "/foos",
-      templateUrl: APP_CONFIG.main_page_html
+      templateUrl: APP_CONFIG.foos_page_html
+    })
+
+    .state("trip-logs",{
+      url: "/trip-logs",
+      templateUrl: APP_CONFIG.trip_logs_html
     })
 
     .state("about",{
