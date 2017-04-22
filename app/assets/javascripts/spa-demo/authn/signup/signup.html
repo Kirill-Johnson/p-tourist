@@ -1,4 +1,4 @@
-<form id="signup-form" name="signup_form" ng-submit="$ctrl.signup()" ng-if="!$ctrl.getCurrentUser()">
+<form id="signup-form" name="signup_form" ng-submit="$ctrl.signup()" ng-show="!$ctrl.getCurrentUser()">
   <span class="invalid"
         ng-hide="signup_form.$dirty">{{$ctrl.signupForm.errors.full_messages}}</span>
 
