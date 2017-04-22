@@ -11,16 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170320130101) do
+ActiveRecord::Schema.define(version: 20170304202140) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "cities", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "foos", force: :cascade do |t|
     t.string   "name",       null: false
@@ -53,12 +47,6 @@ ActiveRecord::Schema.define(version: 20170320130101) do
   add_index "roles", ["mname", "mid"], name: "index_roles_on_mname_and_mid", using: :btree
   add_index "roles", ["mname"], name: "index_roles_on_mname", using: :btree
   add_index "roles", ["user_id"], name: "index_roles_on_user_id", using: :btree
-
-  create_table "services", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "thing_images", force: :cascade do |t|
     t.integer  "image_id",               null: false

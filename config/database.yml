@@ -8,7 +8,7 @@ default: &default
 
 development:
   <<: *default
-  database: capstone_demoapp_development
+  database: p-tourist
 
 test:
   <<: *default
