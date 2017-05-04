@@ -1,0 +1,7 @@
+<ul class="items">
+  <li ng-repeat="trip in $ctrl.trips" ng-class = "trip == $ctrl.selected ? 'selected' : '' ">
+    <a ng-click="$ctrl.select(trip)">
+      {{trip.name}}
+    </a>
+  </li>
+</ul>

@@ -1,0 +1,42 @@
+/*********** trip-logs view ********/
+
+div.stop-info span.id {
+  display: none;
+}
+div.stop-info {
+  margin-left: 5px;
+  position: relative;
+}
+div.stop-info .glyphicon {
+  position: absolute;
+  top: 60px;
+  font-size: 5em;
+}
+div.stop-info .glyphicon-chevron-left {
+  left: 10px;
+}
+div.stop-info .glyphicon-chevron-right {
+  right: 10px;
+}
+
+div.stop-info .overlay {
+  color: white;
+  opacity: 0.0;
+  z-index: 1002;  
+  cursor: pointer;
+}
+div.stop-info .overlay:hover {
+  opacity: 1;
+}
+
+/*** map info windows ***/
+div.stop-marker-info span.id,
+div.image-marker-info span.id {
+  display: none;
+}
+
+div.stop-marker-info img,
+div.image-marker-info img {
+  width: 200px;
+}
+

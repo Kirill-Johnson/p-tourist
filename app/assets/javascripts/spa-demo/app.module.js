@@ -12,6 +12,7 @@
       "spa-demo.geoloc",
       "spa-demo.layout",
       "spa-demo.foos",
-      "spa-demo.subjects"      
+      "spa-demo.subjects",
+      "spa-demo.trips"
     ]);
 })();

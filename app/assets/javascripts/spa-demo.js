@@ -68,3 +68,18 @@
 //= require spa-demo/subjects/current_subjects/current_subjects.component
 //= require spa-demo/subjects/current_images/current_images.component
 //= require spa-demo/subjects/current_things/current_things.component
+
+//= require spa-demo/trips/trips.module
+
+//= require spa-demo/trips/current_trips/current_trips.service
+//= require spa-demo/trips/current_trips/current_trips.component
+//= require spa-demo/trips/current_stops/current_stops.component
+
+//= require spa-demo/trips/stops/stops.service
+//= require spa-demo/trips/stops/stops.component
+//= require spa-demo/trips/stops/stop_images.service
+
+//= require spa-demo/trips/trips/current_trips.component
+//= require spa-demo/trips/trips/trips.service
+
+//= require spa-demo/trips/current_images/current_images.component

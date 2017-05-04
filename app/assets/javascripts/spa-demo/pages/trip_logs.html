@@ -1,6 +1,74 @@
 <div class="page">
   <h1>Trip Logs</h1>
 
-Trip logs. Coming soon.
+<div class="subjects-page col-xs-12" style="margin-bottom: 5px;">
+  <sd-areas sd-areas-side>
+    <div class="areas-left"
+         ng-hide="sideVM.isHidden('left')"
+         ng-class="sideVM.isHidden('right') ? 'col-sm-12':'col-sm-6 col-md-5 col-lg-4'">
+      <sd-area label="Trips" position="left">
+
+        <sd-tabs>
+          <sd-tab label="Trips">
+            <sd-current-trips></sd-current-trips>
+          </sd-tab>
+
+          <sd-tab label="Stops">
+            <sd-current-stops></sd-current-stops>
+          </sd-tab>
+        </sd-tabs>
+
+      </sd-area>
+      <sd-area label="Details" position="left">
+
+        <sd-tabs>
+          <sd-tab label="Stop">
+            <sd-current-stop-info></sd-current-stop-info>
+          </sd-tab>
+
+          <sd-tab label="Image">
+              <sd-current-trip-image-viewer name="details-area"              
+                                       min-width="400">
+              </sd-current-trip-image-viewer>
+          </sd-tab>
+
+      </sd-area>
+    </div>
+
+    <div class="areas-right"
+         ng-hide="sideVM.isHidden('right')"
+         ng-class="sideVM.isHidden('left') ? 'col-sm-12':'col-sm-6 col-md-7 col-lg-8'">
+
+       <sd-area label="Map" position="right">
+
+         <sd-tabs>
+           <sd-tab label="Map">
+             <sd-current-trips-map></sd-current-trips-map>
+           </sd-tab>
+
+           <sd-tab label="Stops">
+             <sd-current-stops></sd-current-stops>
+           </sd-tab>
+
+           <sd-tab label="Images">
+             <sd-current-trip-images></sd-current-trip-images>
+           </sd-tab>
+
+           <sd-tab label="Stop">
+               <sd-current-stop-info></sd-current-stop-info>
+           </sd-tab>
+
+           <sd-tab label="Image">
+               <sd-current-trip-image-viewer name="map-area"
+                                        min-width="800">
+               </sd-current-trip-image-viewer>
+           </sd-tab>
+         </sd-tabs>
+
+       </sd-area>
+
+    </div>
+  </sd-areas>
+</div>
  
 </div>

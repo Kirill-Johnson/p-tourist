@@ -1,0 +1,19 @@
+<div class="stop-info">
+  <h4>{{$ctrl.link.stop_name}}</h4>
+
+  <span class="id stop_id">{{$ctrl.link.stop_id}}</span>
+  <div class="distance" 
+       ng-if="$ctrl.link.distance">{{$ctrl.link.distance | number:1}} miles</div>
+  <p>
+    <div class="description">{{$ctrl.stop.description}}</div>
+  </p>
+  <p>
+    <div class="notes">{{$ctrl.stop.notes}}</div>
+  </p>
+
+  <span class="overlay glyphicon glyphicon-chevron-left"
+        ng-click="$ctrl.previousStop()"></span>
+
+  <span class="overlay glyphicon glyphicon-chevron-right"
+        ng-click="$ctrl.nextStop()"></span>
+</div>
